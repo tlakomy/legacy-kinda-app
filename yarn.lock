@@ -2,6 +2,1277 @@
 # yarn lockfile v1
 
 
+"@aws-amplify/analytics@^3.1.9":
+  version "3.1.9"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/analytics/-/analytics-3.1.9.tgz#2a20cf11da78b52a422d12f347d0e81e57424ce2"
+  integrity sha1-KiDPEdp4tSpCLRLzR9DoHldCTOI=
+  dependencies:
+    "@aws-amplify/cache" "^3.1.9"
+    "@aws-amplify/core" "^3.2.6"
+    "@aws-sdk/client-firehose" "1.0.0-beta.5"
+    "@aws-sdk/client-kinesis" "1.0.0-beta.5"
+    "@aws-sdk/client-personalize-events" "1.0.0-beta.5"
+    "@aws-sdk/client-pinpoint" "1.0.0-beta.5"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    uuid "^3.2.1"
+
+"@aws-amplify/api-graphql@^1.0.11":
+  version "1.0.11"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/api-graphql/-/api-graphql-1.0.11.tgz#480ea1f7cf613eefc5d8cc8c3b5551c080f41ef8"
+  integrity sha1-SA6h989hPu/F2MyMO1VRwID0Hvg=
+  dependencies:
+    "@aws-amplify/api-rest" "^1.0.11"
+    "@aws-amplify/auth" "^3.2.6"
+    "@aws-amplify/cache" "^3.1.9"
+    "@aws-amplify/core" "^3.2.6"
+    "@aws-amplify/pubsub" "^3.0.10"
+    graphql "14.0.0"
+    uuid "^3.2.1"
+    zen-observable-ts "0.8.19"
+
+"@aws-amplify/api-rest@^1.0.11":
+  version "1.0.11"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/api-rest/-/api-rest-1.0.11.tgz#29075b23e27938c05b976aeeb83e6bd74fa4ff3f"
+  integrity sha1-KQdbI+J5OMBbl2ruuD5r10+k/z8=
+  dependencies:
+    "@aws-amplify/core" "^3.2.6"
+    axios "0.19.0"
+
+"@aws-amplify/api@^3.1.9":
+  version "3.1.9"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/api/-/api-3.1.9.tgz#038f02f439d89ba8a77219f6cf0d826b7cd75324"
+  integrity sha1-A48C9DnYm6inchn2zw2Ca3zXUyQ=
+  dependencies:
+    "@aws-amplify/api-graphql" "^1.0.11"
+    "@aws-amplify/api-rest" "^1.0.11"
+
+"@aws-amplify/auth@^3.2.6":
+  version "3.2.6"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/auth/-/auth-3.2.6.tgz#a92a241bbbb79aeb22b2947f49e2c07a6179b5c3"
+  integrity sha1-qSokG7u3musispR/SeLAemF5tcM=
+  dependencies:
+    "@aws-amplify/cache" "^3.1.9"
+    "@aws-amplify/core" "^3.2.6"
+    amazon-cognito-identity-js "^4.2.3"
+    crypto-js "^3.3.0"
+
+"@aws-amplify/cache@^3.1.9":
+  version "3.1.9"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/cache/-/cache-3.1.9.tgz#5fe2f3fbcb763167b7564b2dd28a8946cd276472"
+  integrity sha1-X+Lz+8t2MWe3Vkst0oqJRs0nZHI=
+  dependencies:
+    "@aws-amplify/core" "^3.2.6"
+
+"@aws-amplify/core@^3.2.6":
+  version "3.2.6"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/core/-/core-3.2.6.tgz#832c9551e7b7da38b6f30590611f1d5ff45eca5e"
+  integrity sha1-gyyVUee32ji28wWQYR8dX/Reyl4=
+  dependencies:
+    "@aws-crypto/sha256-js" "1.0.0-alpha.0"
+    "@aws-sdk/client-cognito-identity" "1.0.0-beta.5"
+    "@aws-sdk/credential-provider-cognito-identity" "1.0.0-beta.5"
+    "@aws-sdk/node-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/util-hex-encoding" "1.0.0-beta.2"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-beta.4"
+    url "^0.11.0"
+    zen-observable-ts "0.8.19"
+
+"@aws-amplify/datastore@^2.0.10":
+  version "2.0.10"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/datastore/-/datastore-2.0.10.tgz#a96c2eecb145a5993c52144205af5f4dd559e3bf"
+  integrity sha1-qWwu7LFFpZk8UhRCBa9fTdVZ478=
+  dependencies:
+    "@aws-amplify/api" "^3.1.9"
+    "@aws-amplify/core" "^3.2.6"
+    "@aws-amplify/pubsub" "^3.0.10"
+    idb "4.0.4"
+    immer "6.0.1"
+    uuid "3.3.2"
+    zen-observable-ts "0.8.19"
+    zen-push "0.2.1"
+
+"@aws-amplify/interactions@^3.1.9":
+  version "3.1.9"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/interactions/-/interactions-3.1.9.tgz#3ca6c5345528731f778ed4ba65bba96f0cdcc73f"
+  integrity sha1-PKbFNFUocx93jtS6Zbupbwzcxz8=
+  dependencies:
+    "@aws-amplify/core" "^3.2.6"
+    "@aws-sdk/client-lex-runtime-service" "1.0.0-beta.5"
+
+"@aws-amplify/predictions@^3.1.9":
+  version "3.1.9"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/predictions/-/predictions-3.1.9.tgz#c973c491e5c01b7d19c82a43cbe3bdcc6e893069"
+  integrity sha1-yXPEkeXAG30ZyCpDy+O9zG6JMGk=
+  dependencies:
+    "@aws-amplify/core" "^3.2.6"
+    "@aws-amplify/storage" "^3.1.9"
+    "@aws-sdk/client-comprehend" "1.0.0-beta.5"
+    "@aws-sdk/client-polly" "1.0.0-beta.5"
+    "@aws-sdk/client-rekognition" "1.0.0-beta.5"
+    "@aws-sdk/client-textract" "1.0.0-beta.5"
+    "@aws-sdk/client-translate" "1.0.0-beta.5"
+    "@aws-sdk/eventstream-marshaller" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-node" "1.0.0-beta.3"
+    uuid "^3.2.1"
+
+"@aws-amplify/pubsub@^3.0.10":
+  version "3.0.10"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/pubsub/-/pubsub-3.0.10.tgz#b1789c343bb809eb98c23c05e913178ba8bd8ca3"
+  integrity sha1-sXicNDu4CeuYwjwF6RMXi6i9jKM=
+  dependencies:
+    "@aws-amplify/auth" "^3.2.6"
+    "@aws-amplify/cache" "^3.1.9"
+    "@aws-amplify/core" "^3.2.6"
+    graphql "14.0.0"
+    paho-mqtt "^1.1.0"
+    uuid "^3.2.1"
+    zen-observable-ts "0.8.19"
+
+"@aws-amplify/storage@^3.1.9":
+  version "3.1.9"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/storage/-/storage-3.1.9.tgz#23c0958367c8f5d2fae77a101be71e0221ab4db2"
+  integrity sha1-I8CVg2fI9dL653oQG+ceAiGrTbI=
+  dependencies:
+    "@aws-amplify/core" "^3.2.6"
+    "@aws-sdk/client-s3" "1.0.0-beta.5"
+    "@aws-sdk/s3-request-presigner" "1.0.0-beta.5"
+    "@aws-sdk/util-create-request" "1.0.0-beta.5"
+    "@aws-sdk/util-format-url" "1.0.0-beta.4"
+    axios "0.19.0"
+    events "^3.1.0"
+    sinon "^7.5.0"
+
+"@aws-amplify/ui-components@^0.4.0":
+  version "0.4.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/ui-components/-/ui-components-0.4.0.tgz#a505b7831c17d034127f0b90bef8ebc3181d1f42"
+  integrity sha1-pQW3gxwX0DQSfwuQvvjrwxgdH0I=
+  dependencies:
+    qrcode "^1.4.4"
+
+"@aws-amplify/ui-react@^0.2.5":
+  version "0.2.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/ui-react/-/ui-react-0.2.5.tgz#d99b2cac117fbd455a982e43a866b19d50484469"
+  integrity sha1-2ZssrBF/vUVamC5DqGaxnVBIRGk=
+  dependencies:
+    "@aws-amplify/ui-components" "^0.4.0"
+
+"@aws-amplify/ui@^2.0.2":
+  version "2.0.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/ui/-/ui-2.0.2.tgz#56bfc3674454f2a12d1cec247f38a444aa13ea09"
+  integrity sha1-Vr/DZ0RU8qEtHOwkfzikRKoT6gk=
+
+"@aws-amplify/xr@^2.1.9":
+  version "2.1.9"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-amplify/xr/-/xr-2.1.9.tgz#6e67736de5f44f7917e14794a503c057524140e1"
+  integrity sha1-bmdzbeX0T3kX4UeUpQPAV1JBQOE=
+  dependencies:
+    "@aws-amplify/core" "^3.2.6"
+
+"@aws-crypto/crc32@^1.0.0-alpha.0":
+  version "1.0.0-alpha.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-crypto/crc32/-/crc32-1.0.0-alpha.0.tgz#12e593b60c42352d1942a2fa31122747650dd8f8"
+  integrity sha1-EuWTtgxCNS0ZQqL6MRInR2UN2Pg=
+  dependencies:
+    tslib "^1.9.3"
+
+"@aws-crypto/ie11-detection@^1.0.0-alpha.0":
+  version "1.0.0-alpha.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-crypto/ie11-detection/-/ie11-detection-1.0.0-alpha.0.tgz#16ca4a9233ec4a90e1d0b2f1712f4aa2043457bd"
+  integrity sha1-FspKkjPsSpDh0LLxcS9KogQ0V70=
+  dependencies:
+    tslib "^1.9.3"
+
+"@aws-crypto/sha256-browser@^1.0.0-alpha.0":
+  version "1.0.0-alpha.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-crypto/sha256-browser/-/sha256-browser-1.0.0-alpha.0.tgz#f438fb3423aa989814b87e6afbc490e1d17f3122"
+  integrity sha1-9Dj7NCOqmJgUuH5q+8SQ4dF/MSI=
+  dependencies:
+    "@aws-crypto/ie11-detection" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-crypto/supports-web-crypto" "^1.0.0-alpha.0"
+    "@aws-sdk/types" "^1.0.0-alpha.0"
+    "@aws-sdk/util-locate-window" "^1.0.0-alpha.0"
+    "@aws-sdk/util-utf8-browser" "^1.0.0-alpha.0"
+    tslib "^1.9.3"
+
+"@aws-crypto/sha256-js@1.0.0-alpha.0", "@aws-crypto/sha256-js@^1.0.0-alpha.0":
+  version "1.0.0-alpha.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-crypto/sha256-js/-/sha256-js-1.0.0-alpha.0.tgz#1146f6fa823001a9065ce60db5bf1afcc7c1cc3a"
+  integrity sha1-EUb2+oIwAakGXOYNtb8a/MfBzDo=
+  dependencies:
+    "@aws-sdk/types" "^1.0.0-alpha.0"
+    "@aws-sdk/util-utf8-browser" "^1.0.0-alpha.0"
+    tslib "^1.9.3"
+
+"@aws-crypto/supports-web-crypto@^1.0.0-alpha.0":
+  version "1.0.0-alpha.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-crypto/supports-web-crypto/-/supports-web-crypto-1.0.0-alpha.0.tgz#f9f2bed724caba3036be73e1f9bf25e01e5f6c42"
+  integrity sha1-+fK+1yTKujA2vnPh+b8l4B5fbEI=
+  dependencies:
+    tslib "^1.9.3"
+
+"@aws-sdk/abort-controller@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/abort-controller/-/abort-controller-1.0.0-beta.4.tgz#970ba597fe90f7b30b3e8a973594e560f187ea96"
+  integrity sha1-lwull/6Q97MLPoqXNZTlYPGH6pY=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/chunked-blob-reader-native@1.0.0-beta.3":
+  version "1.0.0-beta.3"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/chunked-blob-reader-native/-/chunked-blob-reader-native-1.0.0-beta.3.tgz#80defb73b60576c3e31a2361bba030e1ff12e600"
+  integrity sha1-gN77c7YFdsPjGiNhu6Aw4f8S5gA=
+  dependencies:
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    tslib "^1.8.0"
+
+"@aws-sdk/chunked-blob-reader@1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/chunked-blob-reader/-/chunked-blob-reader-1.0.0-beta.2.tgz#95e9d5ce9a24fa81eac2f4e37ce866434aa61868"
+  integrity sha1-lenVzpok+oHqwvTjfOhmQ0qmGGg=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/client-cognito-identity@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/client-cognito-identity/-/client-cognito-identity-1.0.0-beta.5.tgz#85c394eeb56777ca8de57b29f3d46175c710e380"
+  integrity sha1-hcOU7rVnd8qN5Xsp89RhdccQ44A=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-node" "1.0.0-beta.4"
+    "@aws-sdk/fetch-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/hash-node" "1.0.0-beta.4"
+    "@aws-sdk/invalid-dependency" "1.0.0-beta.2"
+    "@aws-sdk/middleware-content-length" "1.0.0-beta.4"
+    "@aws-sdk/middleware-host-header" "1.0.0-beta.4"
+    "@aws-sdk/middleware-retry" "1.0.0-beta.4"
+    "@aws-sdk/middleware-serde" "1.0.0-beta.4"
+    "@aws-sdk/middleware-signing" "1.0.0-beta.4"
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/middleware-user-agent" "1.0.0-beta.4"
+    "@aws-sdk/node-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/region-provider" "1.0.0-beta.4"
+    "@aws-sdk/smithy-client" "1.0.0-beta.5"
+    "@aws-sdk/stream-collector-browser" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-native" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-node" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-browser" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-node" "1.0.0-beta.4"
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-base64-node" "1.0.0-beta.3"
+    "@aws-sdk/util-body-length-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-body-length-node" "1.0.0-beta.2"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-beta.4"
+    "@aws-sdk/util-user-agent-node" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-utf8-node" "1.0.0-beta.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/client-comprehend@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/client-comprehend/-/client-comprehend-1.0.0-beta.5.tgz#fb3e289aa8a04d5905ebb0468430435f65ba2df5"
+  integrity sha1-+z4omqigTVkF67BGhDBDX2W6LfU=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-node" "1.0.0-beta.4"
+    "@aws-sdk/fetch-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/hash-node" "1.0.0-beta.4"
+    "@aws-sdk/invalid-dependency" "1.0.0-beta.2"
+    "@aws-sdk/middleware-content-length" "1.0.0-beta.4"
+    "@aws-sdk/middleware-host-header" "1.0.0-beta.4"
+    "@aws-sdk/middleware-retry" "1.0.0-beta.4"
+    "@aws-sdk/middleware-serde" "1.0.0-beta.4"
+    "@aws-sdk/middleware-signing" "1.0.0-beta.4"
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/middleware-user-agent" "1.0.0-beta.4"
+    "@aws-sdk/node-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/region-provider" "1.0.0-beta.4"
+    "@aws-sdk/smithy-client" "1.0.0-beta.5"
+    "@aws-sdk/stream-collector-browser" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-native" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-node" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-browser" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-node" "1.0.0-beta.4"
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-base64-node" "1.0.0-beta.3"
+    "@aws-sdk/util-body-length-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-body-length-node" "1.0.0-beta.2"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-beta.4"
+    "@aws-sdk/util-user-agent-node" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-utf8-node" "1.0.0-beta.3"
+    tslib "^1.8.0"
+    uuid "^7.0.0"
+
+"@aws-sdk/client-firehose@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/client-firehose/-/client-firehose-1.0.0-beta.5.tgz#4bd369f2809d0f6d09693dd138c85e2a5bcc9c63"
+  integrity sha1-S9Np8oCdD20JaT3ROMheKlvMnGM=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-node" "1.0.0-beta.4"
+    "@aws-sdk/fetch-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/hash-node" "1.0.0-beta.4"
+    "@aws-sdk/invalid-dependency" "1.0.0-beta.2"
+    "@aws-sdk/middleware-content-length" "1.0.0-beta.4"
+    "@aws-sdk/middleware-host-header" "1.0.0-beta.4"
+    "@aws-sdk/middleware-retry" "1.0.0-beta.4"
+    "@aws-sdk/middleware-serde" "1.0.0-beta.4"
+    "@aws-sdk/middleware-signing" "1.0.0-beta.4"
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/middleware-user-agent" "1.0.0-beta.4"
+    "@aws-sdk/node-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/region-provider" "1.0.0-beta.4"
+    "@aws-sdk/smithy-client" "1.0.0-beta.5"
+    "@aws-sdk/stream-collector-browser" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-native" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-node" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-browser" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-node" "1.0.0-beta.4"
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-base64-node" "1.0.0-beta.3"
+    "@aws-sdk/util-body-length-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-body-length-node" "1.0.0-beta.2"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-beta.4"
+    "@aws-sdk/util-user-agent-node" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-utf8-node" "1.0.0-beta.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/client-kinesis@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/client-kinesis/-/client-kinesis-1.0.0-beta.5.tgz#310b2d0066501b53f430e8a04bf901515994b824"
+  integrity sha1-MQstAGZQG1P0MOigS/kBUVmUuCQ=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-node" "1.0.0-beta.4"
+    "@aws-sdk/eventstream-serde-browser" "1.0.0-beta.4"
+    "@aws-sdk/eventstream-serde-config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/eventstream-serde-node" "1.0.0-beta.4"
+    "@aws-sdk/fetch-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/hash-node" "1.0.0-beta.4"
+    "@aws-sdk/invalid-dependency" "1.0.0-beta.2"
+    "@aws-sdk/middleware-content-length" "1.0.0-beta.4"
+    "@aws-sdk/middleware-host-header" "1.0.0-beta.4"
+    "@aws-sdk/middleware-retry" "1.0.0-beta.4"
+    "@aws-sdk/middleware-serde" "1.0.0-beta.4"
+    "@aws-sdk/middleware-signing" "1.0.0-beta.4"
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/middleware-user-agent" "1.0.0-beta.4"
+    "@aws-sdk/node-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/region-provider" "1.0.0-beta.4"
+    "@aws-sdk/smithy-client" "1.0.0-beta.5"
+    "@aws-sdk/stream-collector-browser" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-native" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-node" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-browser" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-node" "1.0.0-beta.4"
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-base64-node" "1.0.0-beta.3"
+    "@aws-sdk/util-body-length-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-body-length-node" "1.0.0-beta.2"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-beta.4"
+    "@aws-sdk/util-user-agent-node" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-utf8-node" "1.0.0-beta.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/client-lex-runtime-service@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/client-lex-runtime-service/-/client-lex-runtime-service-1.0.0-beta.5.tgz#d00ef68f68b14225e95eeb99bc554d234871ad12"
+  integrity sha1-0A72j2ixQiXpXuuZvFVNI0hxrRI=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-node" "1.0.0-beta.4"
+    "@aws-sdk/fetch-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/hash-node" "1.0.0-beta.4"
+    "@aws-sdk/invalid-dependency" "1.0.0-beta.2"
+    "@aws-sdk/middleware-content-length" "1.0.0-beta.4"
+    "@aws-sdk/middleware-host-header" "1.0.0-beta.4"
+    "@aws-sdk/middleware-retry" "1.0.0-beta.4"
+    "@aws-sdk/middleware-serde" "1.0.0-beta.4"
+    "@aws-sdk/middleware-signing" "1.0.0-beta.4"
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/middleware-user-agent" "1.0.0-beta.4"
+    "@aws-sdk/node-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/region-provider" "1.0.0-beta.4"
+    "@aws-sdk/smithy-client" "1.0.0-beta.5"
+    "@aws-sdk/stream-collector-browser" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-native" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-node" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-browser" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-node" "1.0.0-beta.4"
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-base64-node" "1.0.0-beta.3"
+    "@aws-sdk/util-body-length-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-body-length-node" "1.0.0-beta.2"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-beta.4"
+    "@aws-sdk/util-user-agent-node" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-utf8-node" "1.0.0-beta.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/client-personalize-events@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/client-personalize-events/-/client-personalize-events-1.0.0-beta.5.tgz#f34dc7bc6bd1894221fd77fb9e0eba76b5f92966"
+  integrity sha1-803HvGvRiUIh/Xf7ng66drX5KWY=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-node" "1.0.0-beta.4"
+    "@aws-sdk/fetch-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/hash-node" "1.0.0-beta.4"
+    "@aws-sdk/invalid-dependency" "1.0.0-beta.2"
+    "@aws-sdk/middleware-content-length" "1.0.0-beta.4"
+    "@aws-sdk/middleware-host-header" "1.0.0-beta.4"
+    "@aws-sdk/middleware-retry" "1.0.0-beta.4"
+    "@aws-sdk/middleware-serde" "1.0.0-beta.4"
+    "@aws-sdk/middleware-signing" "1.0.0-beta.4"
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/middleware-user-agent" "1.0.0-beta.4"
+    "@aws-sdk/node-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/region-provider" "1.0.0-beta.4"
+    "@aws-sdk/smithy-client" "1.0.0-beta.5"
+    "@aws-sdk/stream-collector-browser" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-native" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-node" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-browser" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-node" "1.0.0-beta.4"
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-base64-node" "1.0.0-beta.3"
+    "@aws-sdk/util-body-length-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-body-length-node" "1.0.0-beta.2"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-beta.4"
+    "@aws-sdk/util-user-agent-node" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-utf8-node" "1.0.0-beta.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/client-pinpoint@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/client-pinpoint/-/client-pinpoint-1.0.0-beta.5.tgz#89707b52e18e1c0e6d3787f460fc04e9772469b0"
+  integrity sha1-iXB7UuGOHA5tN4f0YPwE6XckabA=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-node" "1.0.0-beta.4"
+    "@aws-sdk/fetch-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/hash-node" "1.0.0-beta.4"
+    "@aws-sdk/invalid-dependency" "1.0.0-beta.2"
+    "@aws-sdk/middleware-content-length" "1.0.0-beta.4"
+    "@aws-sdk/middleware-host-header" "1.0.0-beta.4"
+    "@aws-sdk/middleware-retry" "1.0.0-beta.4"
+    "@aws-sdk/middleware-serde" "1.0.0-beta.4"
+    "@aws-sdk/middleware-signing" "1.0.0-beta.4"
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/middleware-user-agent" "1.0.0-beta.4"
+    "@aws-sdk/node-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/region-provider" "1.0.0-beta.4"
+    "@aws-sdk/smithy-client" "1.0.0-beta.5"
+    "@aws-sdk/stream-collector-browser" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-native" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-node" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-browser" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-node" "1.0.0-beta.4"
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-base64-node" "1.0.0-beta.3"
+    "@aws-sdk/util-body-length-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-body-length-node" "1.0.0-beta.2"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-beta.4"
+    "@aws-sdk/util-user-agent-node" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-utf8-node" "1.0.0-beta.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/client-polly@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/client-polly/-/client-polly-1.0.0-beta.5.tgz#d7e14a3268534a94112646a14dff106c14e5f187"
+  integrity sha1-1+FKMmhTSpQRJkahTf8QbBTl8Yc=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-node" "1.0.0-beta.4"
+    "@aws-sdk/fetch-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/hash-node" "1.0.0-beta.4"
+    "@aws-sdk/invalid-dependency" "1.0.0-beta.2"
+    "@aws-sdk/middleware-content-length" "1.0.0-beta.4"
+    "@aws-sdk/middleware-host-header" "1.0.0-beta.4"
+    "@aws-sdk/middleware-retry" "1.0.0-beta.4"
+    "@aws-sdk/middleware-serde" "1.0.0-beta.4"
+    "@aws-sdk/middleware-signing" "1.0.0-beta.4"
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/middleware-user-agent" "1.0.0-beta.4"
+    "@aws-sdk/node-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/region-provider" "1.0.0-beta.4"
+    "@aws-sdk/smithy-client" "1.0.0-beta.5"
+    "@aws-sdk/stream-collector-browser" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-native" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-node" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-browser" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-node" "1.0.0-beta.4"
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-base64-node" "1.0.0-beta.3"
+    "@aws-sdk/util-body-length-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-body-length-node" "1.0.0-beta.2"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-beta.4"
+    "@aws-sdk/util-user-agent-node" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-utf8-node" "1.0.0-beta.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/client-rekognition@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/client-rekognition/-/client-rekognition-1.0.0-beta.5.tgz#18dbfe6510560e18e4309b0c58a62a2d425d3ce6"
+  integrity sha1-GNv+ZRBWDhjkMJsMWKYqLUJdPOY=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-node" "1.0.0-beta.4"
+    "@aws-sdk/fetch-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/hash-node" "1.0.0-beta.4"
+    "@aws-sdk/invalid-dependency" "1.0.0-beta.2"
+    "@aws-sdk/middleware-content-length" "1.0.0-beta.4"
+    "@aws-sdk/middleware-host-header" "1.0.0-beta.4"
+    "@aws-sdk/middleware-retry" "1.0.0-beta.4"
+    "@aws-sdk/middleware-serde" "1.0.0-beta.4"
+    "@aws-sdk/middleware-signing" "1.0.0-beta.4"
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/middleware-user-agent" "1.0.0-beta.4"
+    "@aws-sdk/node-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/region-provider" "1.0.0-beta.4"
+    "@aws-sdk/smithy-client" "1.0.0-beta.5"
+    "@aws-sdk/stream-collector-browser" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-native" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-node" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-browser" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-node" "1.0.0-beta.4"
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-base64-node" "1.0.0-beta.3"
+    "@aws-sdk/util-body-length-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-body-length-node" "1.0.0-beta.2"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-beta.4"
+    "@aws-sdk/util-user-agent-node" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-utf8-node" "1.0.0-beta.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/client-s3@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/client-s3/-/client-s3-1.0.0-beta.5.tgz#8462cdfc19ab82fa9893402a8967a49f15a35a75"
+  integrity sha1-hGLN/BmrgvqYk0AqiWeknxWjWnU=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-node" "1.0.0-beta.4"
+    "@aws-sdk/eventstream-serde-browser" "1.0.0-beta.4"
+    "@aws-sdk/eventstream-serde-config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/eventstream-serde-node" "1.0.0-beta.4"
+    "@aws-sdk/fetch-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/hash-blob-browser" "1.0.0-beta.4"
+    "@aws-sdk/hash-node" "1.0.0-beta.4"
+    "@aws-sdk/hash-stream-node" "1.0.0-beta.4"
+    "@aws-sdk/invalid-dependency" "1.0.0-beta.2"
+    "@aws-sdk/md5-js" "1.0.0-beta.4"
+    "@aws-sdk/middleware-apply-body-checksum" "1.0.0-beta.4"
+    "@aws-sdk/middleware-bucket-endpoint" "1.0.0-beta.4"
+    "@aws-sdk/middleware-content-length" "1.0.0-beta.4"
+    "@aws-sdk/middleware-expect-continue" "1.0.0-beta.4"
+    "@aws-sdk/middleware-host-header" "1.0.0-beta.4"
+    "@aws-sdk/middleware-location-constraint" "1.0.0-beta.4"
+    "@aws-sdk/middleware-retry" "1.0.0-beta.4"
+    "@aws-sdk/middleware-sdk-s3" "1.0.0-beta.4"
+    "@aws-sdk/middleware-serde" "1.0.0-beta.4"
+    "@aws-sdk/middleware-signing" "1.0.0-beta.4"
+    "@aws-sdk/middleware-ssec" "1.0.0-beta.4"
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/middleware-user-agent" "1.0.0-beta.4"
+    "@aws-sdk/node-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/region-provider" "1.0.0-beta.4"
+    "@aws-sdk/smithy-client" "1.0.0-beta.5"
+    "@aws-sdk/stream-collector-browser" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-native" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-node" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-browser" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-node" "1.0.0-beta.4"
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-base64-node" "1.0.0-beta.3"
+    "@aws-sdk/util-body-length-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-body-length-node" "1.0.0-beta.2"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-beta.4"
+    "@aws-sdk/util-user-agent-node" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-utf8-node" "1.0.0-beta.3"
+    "@aws-sdk/xml-builder" "1.0.0-beta.2"
+    fast-xml-parser "^3.16.0"
+    tslib "^1.8.0"
+
+"@aws-sdk/client-textract@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/client-textract/-/client-textract-1.0.0-beta.5.tgz#175d01dd0a6cc21dffb0eea6bd1a06a180e85b98"
+  integrity sha1-F10B3Qpswh3/sO6mvRoGoYDoW5g=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-node" "1.0.0-beta.4"
+    "@aws-sdk/fetch-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/hash-node" "1.0.0-beta.4"
+    "@aws-sdk/invalid-dependency" "1.0.0-beta.2"
+    "@aws-sdk/middleware-content-length" "1.0.0-beta.4"
+    "@aws-sdk/middleware-host-header" "1.0.0-beta.4"
+    "@aws-sdk/middleware-retry" "1.0.0-beta.4"
+    "@aws-sdk/middleware-serde" "1.0.0-beta.4"
+    "@aws-sdk/middleware-signing" "1.0.0-beta.4"
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/middleware-user-agent" "1.0.0-beta.4"
+    "@aws-sdk/node-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/region-provider" "1.0.0-beta.4"
+    "@aws-sdk/smithy-client" "1.0.0-beta.5"
+    "@aws-sdk/stream-collector-browser" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-native" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-node" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-browser" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-node" "1.0.0-beta.4"
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-base64-node" "1.0.0-beta.3"
+    "@aws-sdk/util-body-length-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-body-length-node" "1.0.0-beta.2"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-beta.4"
+    "@aws-sdk/util-user-agent-node" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-utf8-node" "1.0.0-beta.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/client-translate@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/client-translate/-/client-translate-1.0.0-beta.5.tgz#933bdcd37b2ac9ef05d8053f020b12ecfd9920fc"
+  integrity sha1-kzvc03sqye8F2AU/AgsS7P2ZIPw=
+  dependencies:
+    "@aws-crypto/sha256-browser" "^1.0.0-alpha.0"
+    "@aws-crypto/sha256-js" "^1.0.0-alpha.0"
+    "@aws-sdk/config-resolver" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-node" "1.0.0-beta.4"
+    "@aws-sdk/fetch-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/hash-node" "1.0.0-beta.4"
+    "@aws-sdk/invalid-dependency" "1.0.0-beta.2"
+    "@aws-sdk/middleware-content-length" "1.0.0-beta.4"
+    "@aws-sdk/middleware-host-header" "1.0.0-beta.4"
+    "@aws-sdk/middleware-retry" "1.0.0-beta.4"
+    "@aws-sdk/middleware-serde" "1.0.0-beta.4"
+    "@aws-sdk/middleware-signing" "1.0.0-beta.4"
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/middleware-user-agent" "1.0.0-beta.4"
+    "@aws-sdk/node-http-handler" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/region-provider" "1.0.0-beta.4"
+    "@aws-sdk/smithy-client" "1.0.0-beta.5"
+    "@aws-sdk/stream-collector-browser" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-native" "1.0.0-beta.4"
+    "@aws-sdk/stream-collector-node" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-browser" "1.0.0-beta.4"
+    "@aws-sdk/url-parser-node" "1.0.0-beta.4"
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-base64-node" "1.0.0-beta.3"
+    "@aws-sdk/util-body-length-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-body-length-node" "1.0.0-beta.2"
+    "@aws-sdk/util-user-agent-browser" "1.0.0-beta.4"
+    "@aws-sdk/util-user-agent-node" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    "@aws-sdk/util-utf8-node" "1.0.0-beta.3"
+    tslib "^1.8.0"
+    uuid "^7.0.0"
+
+"@aws-sdk/config-resolver@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/config-resolver/-/config-resolver-1.0.0-beta.4.tgz#a84d2a7cbeac3a76baf5a3e1bf3dfd74cb0d4108"
+  integrity sha1-qE0qfL6sOna69aPhvz39dMsNQQg=
+  dependencies:
+    "@aws-sdk/signature-v4" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/credential-provider-cognito-identity@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/credential-provider-cognito-identity/-/credential-provider-cognito-identity-1.0.0-beta.5.tgz#8c4cb3df851b907740fb33f0ce5912e61f207bda"
+  integrity sha1-jEyz34UbkHdA+zPwzlkS5h8ge9o=
+  dependencies:
+    "@aws-sdk/client-cognito-identity" "1.0.0-beta.5"
+    "@aws-sdk/property-provider" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/credential-provider-env@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/credential-provider-env/-/credential-provider-env-1.0.0-beta.4.tgz#98b470cfd32bbddf7775e908dc6d406dff8e17cc"
+  integrity sha1-mLRwz9Mrvd93dekI3G1Abf+OF8w=
+  dependencies:
+    "@aws-sdk/property-provider" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/credential-provider-imds@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/credential-provider-imds/-/credential-provider-imds-1.0.0-beta.4.tgz#102d893267ca9de5474d21aafe968e99e76ab7b1"
+  integrity sha1-EC2JMmfKneVHTSGq/paOmedqt7E=
+  dependencies:
+    "@aws-sdk/property-provider" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/credential-provider-ini@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/credential-provider-ini/-/credential-provider-ini-1.0.0-beta.4.tgz#a169ef7708ba2166c159db00bc710773c1f95aef"
+  integrity sha1-oWnvdwi6IWbBWdsAvHEHc8H5Wu8=
+  dependencies:
+    "@aws-sdk/property-provider" "1.0.0-beta.4"
+    "@aws-sdk/shared-ini-file-loader" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/credential-provider-node@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/credential-provider-node/-/credential-provider-node-1.0.0-beta.4.tgz#82999cfe71f88b5b0c7139a8c6a4cf5c8d28fe39"
+  integrity sha1-gpmc/nH4i1sMcTmoxqTPXI0o/jk=
+  dependencies:
+    "@aws-sdk/credential-provider-env" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-imds" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-ini" "1.0.0-beta.4"
+    "@aws-sdk/credential-provider-process" "1.0.0-beta.4"
+    "@aws-sdk/property-provider" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/credential-provider-process@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/credential-provider-process/-/credential-provider-process-1.0.0-beta.4.tgz#d5127006fe698f43527da21cf10ad33f40d9ad87"
+  integrity sha1-1RJwBv5pj0NSfaIc8QrTP0DZrYc=
+  dependencies:
+    "@aws-sdk/credential-provider-ini" "1.0.0-beta.4"
+    "@aws-sdk/property-provider" "1.0.0-beta.4"
+    "@aws-sdk/shared-ini-file-loader" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/eventstream-marshaller@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/eventstream-marshaller/-/eventstream-marshaller-1.0.0-beta.4.tgz#cba99b129b6794bbff8d394124920f48d85aa052"
+  integrity sha1-y6mbEptnlLv/jTlBJJIPSNhaoFI=
+  dependencies:
+    "@aws-crypto/crc32" "^1.0.0-alpha.0"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/util-hex-encoding" "1.0.0-beta.2"
+    tslib "^1.8.0"
+
+"@aws-sdk/eventstream-serde-browser@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/eventstream-serde-browser/-/eventstream-serde-browser-1.0.0-beta.4.tgz#b81a5fc8f6e700421fa54bc8df9dbfc14375241f"
+  integrity sha1-uBpfyPbnAEIfpUvI352/wUN1JB8=
+  dependencies:
+    "@aws-sdk/eventstream-marshaller" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/eventstream-serde-config-resolver@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/eventstream-serde-config-resolver/-/eventstream-serde-config-resolver-1.0.0-beta.4.tgz#6de8c68b6d926fa3390662547aaaf23399a0ba3d"
+  integrity sha1-bejGi22Sb6M5BmJUeqryM5mguj0=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/eventstream-serde-node@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/eventstream-serde-node/-/eventstream-serde-node-1.0.0-beta.4.tgz#56cef5447cbefcb368ee4548795bed1795b74ed2"
+  integrity sha1-Vs71RHy+/LNo7kVIeVvtF5W3TtI=
+  dependencies:
+    "@aws-sdk/eventstream-marshaller" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/fetch-http-handler@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/fetch-http-handler/-/fetch-http-handler-1.0.0-beta.4.tgz#57150d17a5850409e437e037f8f1dc177454747c"
+  integrity sha1-VxUNF6WFBAnkN+A3+PHcF3RUdHw=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/querystring-builder" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/hash-blob-browser@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/hash-blob-browser/-/hash-blob-browser-1.0.0-beta.4.tgz#9c476d3f5472ce2b89997c8a6674b52e281025c1"
+  integrity sha1-nEdtP1RyziuJmXyKZnS1LigQJcE=
+  dependencies:
+    "@aws-sdk/chunked-blob-reader" "1.0.0-beta.2"
+    "@aws-sdk/chunked-blob-reader-native" "1.0.0-beta.3"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/hash-node@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/hash-node/-/hash-node-1.0.0-beta.4.tgz#58b9a3cf1c63b9f7892c15dd6248315cff4dfbde"
+  integrity sha1-WLmjzxxjufeJLBXdYkgxXP9N+94=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/util-buffer-from" "1.0.0-beta.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/hash-stream-node@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/hash-stream-node/-/hash-stream-node-1.0.0-beta.4.tgz#18fa29bb0fc8c5c1991eb0a22520aa27645681f0"
+  integrity sha1-GPopuw/IxcGZHrCiJSCqJ2RWgfA=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/invalid-dependency@1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/invalid-dependency/-/invalid-dependency-1.0.0-beta.2.tgz#7df0fd624a30607af1786b88f56b4c8bc45db27c"
+  integrity sha1-ffD9YkowYHrxeGuI9WtMi8Rdsnw=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/is-array-buffer@1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/is-array-buffer/-/is-array-buffer-1.0.0-beta.2.tgz#9bf3abbd77cb6df4985d0f950a10faf64322ba9c"
+  integrity sha1-m/OrvXfLbfSYXQ+VChD69kMiupw=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/md5-js@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/md5-js/-/md5-js-1.0.0-beta.4.tgz#807928f2c92b25e2369721d7a3ae845b02931c92"
+  integrity sha1-gHko8skrJeI2lyHXo66EWwKTHJI=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/util-utf8-browser" "1.0.0-beta.2"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-apply-body-checksum@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-apply-body-checksum/-/middleware-apply-body-checksum-1.0.0-beta.4.tgz#cd4a0f0c5f3fcbbb00aba2b526eb3fd6c1e75018"
+  integrity sha1-zUoPDF8/y7sAq6K1Jus/1sHnUBg=
+  dependencies:
+    "@aws-sdk/is-array-buffer" "1.0.0-beta.2"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-bucket-endpoint@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-bucket-endpoint/-/middleware-bucket-endpoint-1.0.0-beta.4.tgz#351c6e3e5249d8da2f6b7fde36e65c5a3e234027"
+  integrity sha1-NRxuPlJJ2Nova3/eNuZcWj4jQCc=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-content-length@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-content-length/-/middleware-content-length-1.0.0-beta.4.tgz#30d06f61499163d8bcfdea830f214ed875fc04d5"
+  integrity sha1-MNBvYUmRY9i8/eqDDyFO2HX8BNU=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-expect-continue@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-expect-continue/-/middleware-expect-continue-1.0.0-beta.4.tgz#0154973a416b0ad0d314065f4d24057c53f908cb"
+  integrity sha1-AVSXOkFrCtDTFAZfTSQFfFP5CMs=
+  dependencies:
+    "@aws-sdk/middleware-header-default" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-header-default@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-header-default/-/middleware-header-default-1.0.0-beta.4.tgz#2bc72b8e6082f6e599b266daec3cc2b1010688ab"
+  integrity sha1-K8crjmCC9uWZsmba7DzCsQEGiKs=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-host-header@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-host-header/-/middleware-host-header-1.0.0-beta.4.tgz#9ce9e155634270fae13f85593030e199dc50030f"
+  integrity sha1-nOnhVWNCcPrhP4VZMDDhmdxQAw8=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-location-constraint@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-location-constraint/-/middleware-location-constraint-1.0.0-beta.4.tgz#72b80b6bf1e76de49941d25803497c1ab9f22550"
+  integrity sha1-crgLa/HnbeSZQdJYA0l8GrnyJVA=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-retry@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-retry/-/middleware-retry-1.0.0-beta.4.tgz#a45bc26128352f8622dfe1640f576dd930e045e2"
+  integrity sha1-pFvCYSg1L4Yi3+FkD1dt2TDgReI=
+  dependencies:
+    "@aws-sdk/service-error-classification" "1.0.0-beta.2"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-sdk-s3@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-sdk-s3/-/middleware-sdk-s3-1.0.0-beta.4.tgz#cb46bfb0b5614ccc4000bbda200482a561cfe59e"
+  integrity sha1-y0a/sLVhTMxAALvaIASCpWHP5Z4=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-serde@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-serde/-/middleware-serde-1.0.0-beta.4.tgz#b2dcfe3a574966954784e763951844193f5600cf"
+  integrity sha1-stz+OldJZpVHhOdjlRhEGT9WAM8=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-signing@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-signing/-/middleware-signing-1.0.0-beta.4.tgz#761c4d726feef4cf9e9b395694a2b496f049a395"
+  integrity sha1-dhxNcm/u9M+emzlWlKK0lvBJo5U=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/signature-v4" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-ssec@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-ssec/-/middleware-ssec-1.0.0-beta.4.tgz#237ea0e41289c3bea1789e5440d6667a195ab867"
+  integrity sha1-I36g5BKJw76heJ5UQNZmehlauGc=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-stack@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-stack/-/middleware-stack-1.0.0-beta.4.tgz#5eddd397192ce6d9e69785d3790e928db5ea3967"
+  integrity sha1-Xt3Tlxks5tnml4XTeQ6SjbXqOWc=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/middleware-user-agent@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/middleware-user-agent/-/middleware-user-agent-1.0.0-beta.4.tgz#e1e11abce054ad9d56f41c375dd756e15302dede"
+  integrity sha1-4eEavOBUrZ1W9Bw3XddW4VMC3t4=
+  dependencies:
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/node-http-handler@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/node-http-handler/-/node-http-handler-1.0.0-beta.4.tgz#52036e74f03d4bff98f538feea2f17587a5c73ca"
+  integrity sha1-UgNudPA9S/+Y9Tj+6i8XWHpcc8o=
+  dependencies:
+    "@aws-sdk/abort-controller" "1.0.0-beta.4"
+    "@aws-sdk/protocol-http" "1.0.0-beta.4"
+    "@aws-sdk/querystring-builder" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/property-provider@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/property-provider/-/property-provider-1.0.0-beta.4.tgz#99f1cd76f8e52740064d5e42b67ebdaf96b36d89"
+  integrity sha1-mfHNdvjlJ0AGTV5Ctn69r5azbYk=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/protocol-http@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/protocol-http/-/protocol-http-1.0.0-beta.4.tgz#57591db6f0b5605db43f2ca3d922d3faac4425e4"
+  integrity sha1-V1kdtvC1YF20Pyyj2SLT+qxEJeQ=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/querystring-builder@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/querystring-builder/-/querystring-builder-1.0.0-beta.4.tgz#694a6c7014e919387bd890056f465895e772543d"
+  integrity sha1-aUpscBTpGTh72JAFb0ZYledyVD0=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/util-uri-escape" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/querystring-parser@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/querystring-parser/-/querystring-parser-1.0.0-beta.4.tgz#b06c7e3a93c352373767b827af1a2b2561a0fe78"
+  integrity sha1-sGx+OpPDUjc3Z7gnrxorJWGg/ng=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/region-provider@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/region-provider/-/region-provider-1.0.0-beta.4.tgz#e3a6b690c94a72fcdeec272e021c5ca47a6916fd"
+  integrity sha1-46a2kMlKcvze7CcuAhxcpHppFv0=
+  dependencies:
+    "@aws-sdk/property-provider" "1.0.0-beta.4"
+    "@aws-sdk/shared-ini-file-loader" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/s3-request-presigner@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/s3-request-presigner/-/s3-request-presigner-1.0.0-beta.5.tgz#c049fb30e39fa428eac93848d0b9b4c5a333e648"
+  integrity sha1-wEn7MOOfpCjqyThI0Lm0xaMz5kg=
+  dependencies:
+    "@aws-sdk/signature-v4" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/util-create-request" "1.0.0-beta.5"
+    "@aws-sdk/util-format-url" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/service-error-classification@1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/service-error-classification/-/service-error-classification-1.0.0-beta.2.tgz#bb1e79f0a9475aaca2143af15640ccd24d4b9f1d"
+  integrity sha1-ux558KlHWqyiFDrxVkDM0k1Lnx0=
+
+"@aws-sdk/shared-ini-file-loader@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/shared-ini-file-loader/-/shared-ini-file-loader-1.0.0-beta.4.tgz#912012a0d3a001902db395ecdd3db484404fc0cf"
+  integrity sha1-kSASoNOgAZAts5Xs3T20hEBPwM8=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/signature-v4@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/signature-v4/-/signature-v4-1.0.0-beta.4.tgz#319e48947874b6147ea369c03d357d755149e003"
+  integrity sha1-MZ5IlHh0thR+o2nAPTV9dVFJ4AM=
+  dependencies:
+    "@aws-sdk/is-array-buffer" "1.0.0-beta.2"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/util-hex-encoding" "1.0.0-beta.2"
+    "@aws-sdk/util-uri-escape" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/smithy-client@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/smithy-client/-/smithy-client-1.0.0-beta.5.tgz#f904b862e5264fe6aac8d6e2d2b62c20b6b10c06"
+  integrity sha1-+QS4YuUmT+aqyNbi0rYsILaxDAY=
+  dependencies:
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/stream-collector-browser@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/stream-collector-browser/-/stream-collector-browser-1.0.0-beta.4.tgz#9691a0056ece358a4a16c12dc93c67dee9ece360"
+  integrity sha1-lpGgBW7ONYpKFsEtyTxn3uns42A=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/stream-collector-native@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/stream-collector-native/-/stream-collector-native-1.0.0-beta.4.tgz#c28570efb3a3ef4747983b9a6e1e640851a00d28"
+  integrity sha1-woVw77Oj70dHmDuabh5kCFGgDSg=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    "@aws-sdk/util-base64-browser" "1.0.0-beta.2"
+    tslib "^1.8.0"
+
+"@aws-sdk/stream-collector-node@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/stream-collector-node/-/stream-collector-node-1.0.0-beta.4.tgz#b9db32fefa4de928debc00b697947bcc326346c3"
+  integrity sha1-udsy/vpN6SjevAC2l5R7zDJjRsM=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/types@1.0.0-beta.4", "@aws-sdk/types@^1.0.0-alpha.0":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/types/-/types-1.0.0-beta.4.tgz#44a614f39aafb80430a85fe59507f83a5953c517"
+  integrity sha1-RKYU85qvuAQwqF/llQf4OllTxRc=
+
+"@aws-sdk/url-parser-browser@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/url-parser-browser/-/url-parser-browser-1.0.0-beta.4.tgz#0cb66fc241105b28fcc1e0e33519ca2f8f2735b3"
+  integrity sha1-DLZvwkEQWyj8weDjNRnKL48nNbM=
+  dependencies:
+    "@aws-sdk/querystring-parser" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/url-parser-node@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/url-parser-node/-/url-parser-node-1.0.0-beta.4.tgz#2f4f45d4ec36caa6274f20c3164d34ef88dc9079"
+  integrity sha1-L09F1Ow2yqYnTyDDFk0074jckHk=
+  dependencies:
+    "@aws-sdk/querystring-parser" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+    url "^0.11.0"
+
+"@aws-sdk/util-base64-browser@1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-base64-browser/-/util-base64-browser-1.0.0-beta.2.tgz#021c862d1f6d27e903b433c7fe0497f4386acc66"
+  integrity sha1-AhyGLR9tJ+kDtDPH/gSX9DhqzGY=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-base64-node@1.0.0-beta.3":
+  version "1.0.0-beta.3"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-base64-node/-/util-base64-node-1.0.0-beta.3.tgz#ad281276ed97fc689ebc16b8c24edf615759f6c0"
+  integrity sha1-rSgSdu2X/GievBa4wk7fYVdZ9sA=
+  dependencies:
+    "@aws-sdk/util-buffer-from" "1.0.0-beta.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-body-length-browser@1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-body-length-browser/-/util-body-length-browser-1.0.0-beta.2.tgz#b3d7a99c7f7c0f74edc3c993c2b2262a8deb87f3"
+  integrity sha1-s9epnH98D3Ttw8mTwrImKo3rh/M=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-body-length-node@1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-body-length-node/-/util-body-length-node-1.0.0-beta.2.tgz#31aff4e2d3b161ef99676a6e6142ee78a06ee1d7"
+  integrity sha1-Ma/04tOxYe+ZZ2puYULueKBu4dc=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-buffer-from@1.0.0-beta.3":
+  version "1.0.0-beta.3"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-buffer-from/-/util-buffer-from-1.0.0-beta.3.tgz#b7de053e40895fd9b51b42e0f392cda0a4b70e74"
+  integrity sha1-t94FPkCJX9m1G0Lg85LNoKS3DnQ=
+  dependencies:
+    "@aws-sdk/is-array-buffer" "1.0.0-beta.2"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-create-request@1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-create-request/-/util-create-request-1.0.0-beta.5.tgz#8605ae91070782ef40c437063326af05ae9a84b4"
+  integrity sha1-hgWukQcHgu9AxDcGMyavBa6ahLQ=
+  dependencies:
+    "@aws-sdk/middleware-stack" "1.0.0-beta.4"
+    "@aws-sdk/smithy-client" "1.0.0-beta.5"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-format-url@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-format-url/-/util-format-url-1.0.0-beta.4.tgz#d282210cc974327c9a5db1343475c1692131b749"
+  integrity sha1-0oIhDMl0MnyaXbE0NHXBaSExt0k=
+  dependencies:
+    "@aws-sdk/querystring-builder" "1.0.0-beta.4"
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-hex-encoding@1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-hex-encoding/-/util-hex-encoding-1.0.0-beta.2.tgz#5eb2c945bfd251ad262ad6a596bc3f935b0b05ea"
+  integrity sha1-XrLJRb/SUa0mKtallrw/k1sLBeo=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-locate-window@^1.0.0-alpha.0":
+  version "1.0.0-beta.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-locate-window/-/util-locate-window-1.0.0-beta.2.tgz#fc450da1126140f2845273983232b6e9b025a5cb"
+  integrity sha1-/EUNoRJhQPKEUnOYMjK26bAlpcs=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-uri-escape@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-uri-escape/-/util-uri-escape-1.0.0-beta.4.tgz#f43cd75aa32c4de4d41b66a4160058e5d75e5a0b"
+  integrity sha1-9DzXWqMsTeTUG2akFgBY5ddeWgs=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-user-agent-browser@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-user-agent-browser/-/util-user-agent-browser-1.0.0-beta.4.tgz#2f6791003f497e610e1f284c8e2f76f21dd65fec"
+  integrity sha1-L2eRAD9JfmEOHyhMji928h3WX+w=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-user-agent-node@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-user-agent-node/-/util-user-agent-node-1.0.0-beta.4.tgz#0b9a35e205d3ea80a7ea686449c05b059f4be7f5"
+  integrity sha1-C5o14gXT6oCn6mhkScBbBZ9L5/U=
+  dependencies:
+    "@aws-sdk/types" "1.0.0-beta.4"
+    tslib "^1.8.0"
+
+"@aws-sdk/util-utf8-browser@1.0.0-beta.2", "@aws-sdk/util-utf8-browser@^1.0.0-alpha.0":
+  version "1.0.0-beta.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-utf8-browser/-/util-utf8-browser-1.0.0-beta.2.tgz#20456a061aef77509a2fcfdfb48ddabab39a2909"
+  integrity sha1-IEVqBhrvd1CaL8/ftI3aurOaKQk=
+  dependencies:
+    tslib "^1.8.0"
+
+"@aws-sdk/util-utf8-node@1.0.0-beta.3":
+  version "1.0.0-beta.3"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/util-utf8-node/-/util-utf8-node-1.0.0-beta.3.tgz#9107fe9c6d66b5544b100ab05be4cb5131f20703"
+  integrity sha1-kQf+nG1mtVRLEAqwW+TLUTHyBwM=
+  dependencies:
+    "@aws-sdk/util-buffer-from" "1.0.0-beta.3"
+    tslib "^1.8.0"
+
+"@aws-sdk/xml-builder@1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@aws-sdk/xml-builder/-/xml-builder-1.0.0-beta.2.tgz#566b1bda9909cd42061874537c85caec4f438af0"
+  integrity sha1-Vmsb2pkJzUIGGHRTfIXK7E9DivA=
+  dependencies:
+    tslib "^1.8.0"
+
 "@babel/code-frame@7.8.3", "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -1246,6 +2517,35 @@
   resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
   integrity sha1-VAXujkRO0hLbROeTUfDHClgqriU=
 
+"@sinonjs/commons@^1", "@sinonjs/commons@^1.3.0", "@sinonjs/commons@^1.4.0", "@sinonjs/commons@^1.7.0":
+  version "1.7.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@sinonjs/commons/-/commons-1.7.2.tgz#505f55c74e0272b43f6c52d81946bed7058fc0e2"
+  integrity sha1-UF9Vx04CcrQ/bFLYGUa+1wWPwOI=
+  dependencies:
+    type-detect "4.0.8"
+
+"@sinonjs/formatio@^3.2.1":
+  version "3.2.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@sinonjs/formatio/-/formatio-3.2.2.tgz#771c60dfa75ea7f2d68e3b94c7e888a78781372c"
+  integrity sha1-dxxg36dep/LWjjuUx+iIp4eBNyw=
+  dependencies:
+    "@sinonjs/commons" "^1"
+    "@sinonjs/samsam" "^3.1.0"
+
+"@sinonjs/samsam@^3.1.0", "@sinonjs/samsam@^3.3.3":
+  version "3.3.3"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@sinonjs/samsam/-/samsam-3.3.3.tgz#46682efd9967b259b81136b9f120fd54585feb4a"
+  integrity sha1-Rmgu/Zlnslm4ETa58SD9VFhf60o=
+  dependencies:
+    "@sinonjs/commons" "^1.3.0"
+    array-from "^2.1.1"
+    lodash "^4.17.15"
+
+"@sinonjs/text-encoding@^0.7.1":
+  version "0.7.1"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/@sinonjs/text-encoding/-/text-encoding-0.7.1.tgz#8da5c6530915653f3a1f38fd5f101d8c3f8079c5"
+  integrity sha1-jaXGUwkVZT86Hzj9XxAdjD+AecU=
+
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@svgr/babel-plugin-add-jsx-attribute/-/babel-plugin-add-jsx-attribute-4.2.0.tgz#dadcb6218503532d6884b210e7f3c502caaa44b1"
@@ -1854,6 +3154,15 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
+amazon-cognito-identity-js@^4.2.3:
+  version "4.2.3"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/amazon-cognito-identity-js/-/amazon-cognito-identity-js-4.2.3.tgz#ddde931884aca97c1845942e1e2ab5c21cba72c4"
+  integrity sha1-3d6TGISsqXwYRZQuHiq1why6csQ=
+  dependencies:
+    buffer "4.9.1"
+    crypto-js "^3.3.0"
+    js-cookie "^2.1.4"
+
 ansi-colors@^3.0.0:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
@@ -1995,6 +3304,11 @@ array-flatten@^2.1.0:
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-2.1.2.tgz#24ef80a28c1a893617e2149b0c6d0d788293b099"
   integrity sha512-hNfzcOV8W4NdualtqBFPyVO+54DSJuZGY9qT4pRroB6S9e3iiido2ISIC5h9R2sPJ8H3FHCIiEnsv1lPXO3KtQ==
 
+array-from@^2.1.1:
+  version "2.1.1"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/array-from/-/array-from-2.1.1.tgz#cfe9d8c26628b9dc5aecc62a9f5d8f1f352c1195"
+  integrity sha1-z+nYwmYoudxa7MYqn12PHzUsEZU=
+
 array-includes@^3.0.3, array-includes@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/array-includes/-/array-includes-3.1.1.tgz#cdd67e6852bdf9c1215460786732255ed2459348"
@@ -2130,6 +3444,24 @@ autoprefixer@^9.6.1:
     postcss "^7.0.26"
     postcss-value-parser "^4.0.2"
 
+aws-amplify@^3.0.10:
+  version "3.0.10"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/aws-amplify/-/aws-amplify-3.0.10.tgz#11a47a1c42e5ea7e2e10d372d21ca886e6573bbe"
+  integrity sha1-EaR6HELl6n4uENNy0hyohuZXO74=
+  dependencies:
+    "@aws-amplify/analytics" "^3.1.9"
+    "@aws-amplify/api" "^3.1.9"
+    "@aws-amplify/auth" "^3.2.6"
+    "@aws-amplify/cache" "^3.1.9"
+    "@aws-amplify/core" "^3.2.6"
+    "@aws-amplify/datastore" "^2.0.10"
+    "@aws-amplify/interactions" "^3.1.9"
+    "@aws-amplify/predictions" "^3.1.9"
+    "@aws-amplify/pubsub" "^3.0.10"
+    "@aws-amplify/storage" "^3.1.9"
+    "@aws-amplify/ui" "^2.0.2"
+    "@aws-amplify/xr" "^2.1.9"
+
 aws-sign2@~0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
@@ -2139,6 +3471,14 @@ aws4@^1.8.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.9.1.tgz#7e33d8f7d449b3f673cd72deb9abdc552dbe528e"
   integrity sha512-wMHVg2EOHaMRxbzgFJ9gtjOOCrI80OHLG14rxi28XwOW8ux6IiEbRCGGGqCtdAIg4FQCbW20k9RsT4y3gJlFug==
+
+axios@0.19.0:
+  version "0.19.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/axios/-/axios-0.19.0.tgz#8e09bff3d9122e133f7b8101c8fbdd00ed3d2ab8"
+  integrity sha1-jgm/89kSLhM/e4EByPvdAO09Krg=
+  dependencies:
+    follow-redirects "1.5.10"
+    is-buffer "^2.0.2"
 
 axobject-query@^2.0.2:
   version "2.1.2"
@@ -2519,7 +3859,25 @@ bser@2.1.1:
   dependencies:
     node-int64 "^0.4.0"
 
-buffer-from@^1.0.0:
+buffer-alloc-unsafe@^1.1.0:
+  version "1.1.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz#bd7dc26ae2972d0eda253be061dba992349c19f0"
+  integrity sha1-vX3CauKXLQ7aJTvgYdupkjScGfA=
+
+buffer-alloc@^1.2.0:
+  version "1.2.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/buffer-alloc/-/buffer-alloc-1.2.0.tgz#890dd90d923a873e08e10e5fd51a57e5b7cce0ec"
+  integrity sha1-iQ3ZDZI6hz4I4Q5f1RpX5bfM4Ow=
+  dependencies:
+    buffer-alloc-unsafe "^1.1.0"
+    buffer-fill "^1.0.0"
+
+buffer-fill@^1.0.0:
+  version "1.0.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/buffer-fill/-/buffer-fill-1.0.0.tgz#f8f78b76789888ef39f205cd637f68e702122b2c"
+  integrity sha1-+PeLdniYiO858gXNY39o5wISKyw=
+
+buffer-from@^1.0.0, buffer-from@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
@@ -2534,6 +3892,15 @@ buffer-xor@^1.0.3:
   resolved "https://registry.yarnpkg.com/buffer-xor/-/buffer-xor-1.0.3.tgz#26e61ed1422fb70dd42e6e36729ed51d855fe8d9"
   integrity sha1-JuYe0UIvtw3ULm42cp7VHYVf6Nk=
 
+buffer@4.9.1:
+  version "4.9.1"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/buffer/-/buffer-4.9.1.tgz#6d1bb601b07a4efced97094132093027c95bc298"
+  integrity sha1-bRu2AbB6TvztlwlBMgkwJ8lbwpg=
+  dependencies:
+    base64-js "^1.0.2"
+    ieee754 "^1.1.4"
+    isarray "^1.0.0"
+
 buffer@^4.3.0:
   version "4.9.2"
   resolved "https://registry.yarnpkg.com/buffer/-/buffer-4.9.2.tgz#230ead344002988644841ab0244af8c44bbe3ef8"
@@ -2542,6 +3909,14 @@ buffer@^4.3.0:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
     isarray "^1.0.0"
+
+buffer@^5.4.3:
+  version "5.6.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/buffer/-/buffer-5.6.0.tgz#a31749dc7d81d84db08abf937b6b8c4033f62786"
+  integrity sha1-oxdJ3H2B2E2wir+Te2uMQDP2J4Y=
+  dependencies:
+    base64-js "^1.0.2"
+    ieee754 "^1.1.4"
 
 builtin-status-codes@^3.0.0:
   version "3.0.0"
@@ -3195,6 +4570,11 @@ crypto-browserify@^3.11.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
+crypto-js@^3.3.0:
+  version "3.3.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/crypto-js/-/crypto-js-3.3.0.tgz#846dd1cce2f68aacfa156c8578f926a609b7976b"
+  integrity sha1-hG3RzOL2iqz6FWyFePkmpgm3l2s=
+
 css-blank-pseudo@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/css-blank-pseudo/-/css-blank-pseudo-0.1.4.tgz#dfdefd3254bf8a82027993674ccf35483bfcb3c5"
@@ -3454,6 +4834,13 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
+debug@=3.1.0:
+  version "3.1.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
+  dependencies:
+    ms "2.0.0"
+
 debug@^3.0.0, debug@^3.1.1, debug@^3.2.5:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
@@ -3591,6 +4978,11 @@ diff-sequences@^24.9.0:
   resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-24.9.0.tgz#5715d6244e2aa65f48bba0bc972db0b0b11e95b5"
   integrity sha512-Dj6Wk3tWyTE+Fo1rW8v0Xhwk80um6yFYKbuAxc9c3EZxIHFDYwbi34Uk42u1CdnIiVorvt4RmlSDjIPyzGC2ew==
 
+diff@^3.5.0:
+  version "3.5.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
+  integrity sha1-gAwN0eCov7yVg1wgKtIg/jF+WhI=
+
 diffie-hellman@^5.0.0:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/diffie-hellman/-/diffie-hellman-5.0.3.tgz#40e8ee98f55a2149607146921c63e1ae5f3d2875"
@@ -3599,6 +4991,11 @@ diffie-hellman@^5.0.0:
     bn.js "^4.1.0"
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
+
+dijkstrajs@^1.0.1:
+  version "1.0.1"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/dijkstrajs/-/dijkstrajs-1.0.1.tgz#d3cd81221e3ea40742cfcde556d4e99e98ddc71b"
+  integrity sha1-082BIh4+pAdCz83lVtTpnpjdxxs=
 
 dir-glob@2.0.0:
   version "2.0.0"
@@ -4146,7 +5543,7 @@ eventemitter3@^4.0.0:
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
   integrity sha512-qerSRB0p+UDEssxTtm6EDKcE7W4OaoisfIMl4CngyEhjpYglocpNg6UEqCvemdGhosAsg4sO2dXJOdyBifPGCg==
 
-events@^3.0.0:
+events@^3.0.0, events@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/events/-/events-3.1.0.tgz#84279af1b34cb75aa88bf5ff291f6d0bd9b31a59"
   integrity sha512-Rv+u8MLHNOdMjTAFeT3nCjHn2aGlx435FP/sDHNaRhDEMwyI/aB22Kj2qIN8R0cw3z28psEQLYwxVKLsKrMgWg==
@@ -4337,6 +5734,11 @@ fast-levenshtein@~2.0.6:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
+fast-xml-parser@^3.16.0:
+  version "3.16.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/fast-xml-parser/-/fast-xml-parser-3.16.0.tgz#d905e7e6b28fc4648cabebcb074363867fb56ee2"
+  integrity sha1-2QXn5rKPxGSMq+vLB0Njhn+1buI=
+
 faye-websocket@^0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/faye-websocket/-/faye-websocket-0.10.0.tgz#4e492f8d04dfb6f89003507f6edbf2d501e7c6f4"
@@ -4508,6 +5910,13 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
+
+follow-redirects@1.5.10:
+  version "1.5.10"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  integrity sha1-e3qfmuov3/NnhqlP9kPtB/T/Xio=
+  dependencies:
+    debug "=3.1.0"
 
 follow-redirects@^1.0.0:
   version "1.10.0"
@@ -4785,6 +6194,13 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
   integrity sha512-a30VEBm4PEdx1dRB7MFK7BejejvCvBronbLjht+sHuGYj8PHs7M/5Z+rt5lw551vZ7yfTCj4Vuyy3mSJytDWRQ==
+
+graphql@14.0.0:
+  version "14.0.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/graphql/-/graphql-14.0.0.tgz#4ee771c5266d08cb75df2d3ac41e8dd51ce3d599"
+  integrity sha1-TudxxSZtCMt13y06xB6N1Rzj1Zk=
+  dependencies:
+    iterall "^1.2.2"
 
 growly@^1.3.0:
   version "1.3.0"
@@ -5090,6 +6506,11 @@ icss-utils@^4.0.0, icss-utils@^4.1.1:
   dependencies:
     postcss "^7.0.14"
 
+idb@4.0.4:
+  version "4.0.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/idb/-/idb-4.0.4.tgz#f0c06f58bd78fe557e4de944fd6ba6a3240faa8e"
+  integrity sha1-8MBvWL14/lV+TelE/WumoyQPqo4=
+
 identity-obj-proxy@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/identity-obj-proxy/-/identity-obj-proxy-3.0.0.tgz#94d2bda96084453ef36fbc5aaec37e0f79f1fc14"
@@ -5121,6 +6542,11 @@ immer@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/immer/-/immer-1.10.0.tgz#bad67605ba9c810275d91e1c2a47d4582e98286d"
   integrity sha512-O3sR1/opvCDGLEVcvrGTMtLac8GJ5IwZC4puPrLuRj3l7ICKvkmA0vGuU9OW8mV9WIBRnaxp5GJh9IEAaNOoYg==
+
+immer@6.0.1:
+  version "6.0.1"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/immer/-/immer-6.0.1.tgz#7af35e35753d9da6bc9123f0cc99f7e8f2e10681"
+  integrity sha1-evNeNXU9naa8kSPwzJn36PLhBoE=
 
 import-cwd@^2.0.0:
   version "2.1.0"
@@ -5347,6 +6773,11 @@ is-buffer@^1.0.2, is-buffer@^1.1.5:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
   integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
+
+is-buffer@^2.0.2:
+  version "2.0.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/is-buffer/-/is-buffer-2.0.4.tgz#3e572f23c8411a5cfd9557c849e3665e0b290623"
+  integrity sha1-PlcvI8hBGlz9lVfISeNmXgspBiM=
 
 is-callable@^1.1.4, is-callable@^1.1.5:
   version "1.1.5"
@@ -5596,10 +7027,20 @@ is-wsl@^2.1.1:
   resolved "https://registry.yarnpkg.com/is-wsl/-/is-wsl-2.1.1.tgz#4a1c152d429df3d441669498e2486d3596ebaf1d"
   integrity sha512-umZHcSrwlDHo2TGMXv0DZ8dIUGunZ2Iv68YZnrmCiBPkZ4aaOhtv7pXJKeki9k3qJ3RJr0cDyitcl5wEH3AYog==
 
+isarray@0.0.1:
+  version "0.0.1"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
+  integrity sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
+
 isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+
+isarray@^2.0.1:
+  version "2.0.5"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/isarray/-/isarray-2.0.5.tgz#8af1e4c1221244cc62459faf38940d4e644a5723"
+  integrity sha1-ivHkwSISRMxiRZ+vOJQNTmRKVyM=
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -5667,6 +7108,11 @@ istanbul-reports@^2.2.6:
   integrity sha512-uu1F/L1o5Y6LzPVSVZXNOoD/KXpJue9aeLRd0sM9uMXfZvzomB0WxVamWb5ue8kA2vVWEmW7EG+A5n3f1kqHKg==
   dependencies:
     html-escaper "^2.0.0"
+
+iterall@^1.2.2:
+  version "1.3.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/iterall/-/iterall-1.3.0.tgz#afcb08492e2915cbd8a0884eb93a8c94d0d72fea"
+  integrity sha1-r8sISS4pFcvYoIhOuTqMlNDXL+o=
 
 jest-changed-files@^24.9.0:
   version "24.9.0"
@@ -6055,6 +7501,11 @@ jest@24.9.0:
     import-local "^2.0.0"
     jest-cli "^24.9.0"
 
+js-cookie@^2.1.4:
+  version "2.2.1"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/js-cookie/-/js-cookie-2.2.1.tgz#69e106dc5d5806894562902aa5baec3744e9b2b8"
+  integrity sha1-aeEG3F1YBolFYpAqpbrsN0Tpsrg=
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -6232,6 +7683,11 @@ jsx-ast-utils@^2.2.1, jsx-ast-utils@^2.2.3:
   dependencies:
     array-includes "^3.0.3"
     object.assign "^4.1.0"
+
+just-extend@^4.0.2:
+  version "4.1.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/just-extend/-/just-extend-4.1.0.tgz#7278a4027d889601640ee0ce0e5a00b992467da4"
+  integrity sha1-cnikAn2IlgFkDuDODloAuZJGfaQ=
 
 killable@^1.0.1:
   version "1.0.1"
@@ -6447,6 +7903,18 @@ loglevel@^1.6.6:
   version "1.6.7"
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.7.tgz#b3e034233188c68b889f5b862415306f565e2c56"
   integrity sha512-cY2eLFrQSAfVPhCgH1s7JI73tMbg9YC3v3+ZHVW67sBS7UxWzNEk/ZBbSfLykBWHp33dqqtOv82gjhKEi81T/A==
+
+lolex@^4.2.0:
+  version "4.2.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/lolex/-/lolex-4.2.0.tgz#ddbd7f6213ca1ea5826901ab1222b65d714b3cd7"
+  integrity sha1-3b1/YhPKHqWCaQGrEiK2XXFLPNc=
+
+lolex@^5.0.1:
+  version "5.1.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/lolex/-/lolex-5.1.2.tgz#953694d098ce7c07bc5ed6d0e42bc6c0c6d5a367"
+  integrity sha1-lTaU0JjOfAe8XtbQ5CvGwMbVo2c=
+  dependencies:
+    "@sinonjs/commons" "^1.7.0"
 
 loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
@@ -6854,6 +8322,17 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
+
+nise@^1.5.2:
+  version "1.5.3"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/nise/-/nise-1.5.3.tgz#9d2cfe37d44f57317766c6e9408a359c5d3ac1f7"
+  integrity sha1-nSz+N9RPVzF3ZsbpQIo1nF06wfc=
+  dependencies:
+    "@sinonjs/formatio" "^3.2.1"
+    "@sinonjs/text-encoding" "^0.7.1"
+    just-extend "^4.0.2"
+    lolex "^5.0.1"
+    path-to-regexp "^1.7.0"
 
 no-case@^3.0.3:
   version "3.0.3"
@@ -7285,6 +8764,11 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
+paho-mqtt@^1.1.0:
+  version "1.1.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/paho-mqtt/-/paho-mqtt-1.1.0.tgz#8c10e29eb162e966fb15188d965c3dce505de9d9"
+  integrity sha1-jBDinrFi6Wb7FRiNllw9zlBd6dk=
+
 pako@~1.0.5:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
@@ -7436,6 +8920,13 @@ path-to-regexp@0.1.7:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
+path-to-regexp@^1.7.0:
+  version "1.8.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/path-to-regexp/-/path-to-regexp-1.8.0.tgz#887b3ba9d84393e87a0a0b9f4cb756198b53548a"
+  integrity sha1-iHs7qdhDk+h6CgufTLdWGYtTVIo=
+  dependencies:
+    isarray "0.0.1"
+
 path-type@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-2.0.0.tgz#f012ccb8415b7096fc2daa1054c3d72389594c73"
@@ -7549,6 +9040,11 @@ pn@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
   integrity sha512-2qHaIQr2VLRFoxe2nASzsV6ef4yOOH+Fi9FBOVH6cqeSgUnoyySPZkxzLuzd+RYOQTRpROA0ztTMqxROKSb/nA==
+
+pngjs@^3.3.0:
+  version "3.4.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/pngjs/-/pngjs-3.4.0.tgz#99ca7d725965fb655814eaf65f38f12bbdbf555f"
+  integrity sha1-mcp9clll+2VYFOr2XzjxK72/VV8=
 
 pnp-webpack-plugin@1.6.4:
   version "1.6.4"
@@ -8398,6 +9894,19 @@ q@^1.1.2:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
+
+qrcode@^1.4.4:
+  version "1.4.4"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/qrcode/-/qrcode-1.4.4.tgz#f0c43568a7e7510a55efc3b88d9602f71963ea83"
+  integrity sha1-8MQ1aKfnUQpV78O4jZYC9xlj6oM=
+  dependencies:
+    buffer "^5.4.3"
+    buffer-alloc "^1.2.0"
+    buffer-from "^1.1.1"
+    dijkstrajs "^1.0.1"
+    isarray "^2.0.1"
+    pngjs "^3.3.0"
+    yargs "^13.2.4"
 
 qs@6.7.0:
   version "6.7.0"
@@ -9291,6 +10800,19 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
+sinon@^7.5.0:
+  version "7.5.0"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/sinon/-/sinon-7.5.0.tgz#e9488ea466070ea908fd44a3d6478fd4923c67ec"
+  integrity sha1-6UiOpGYHDqkI/USj1keP1JI8Z+w=
+  dependencies:
+    "@sinonjs/commons" "^1.4.0"
+    "@sinonjs/formatio" "^3.2.1"
+    "@sinonjs/samsam" "^3.3.3"
+    diff "^3.5.0"
+    lolex "^4.2.0"
+    nise "^1.5.2"
+    supports-color "^5.5.0"
+
 sisteransi@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
@@ -9754,7 +11276,7 @@ supports-color@^2.0.0:
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
   integrity sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=
 
-supports-color@^5.3.0:
+supports-color@^5.3.0, supports-color@^5.5.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
   integrity sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==
@@ -9992,6 +11514,11 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
   integrity sha512-aZW88SY8kQbU7gpV19lN24LtXh/yD4ZZg6qieAJDDg+YBsJcSmLGK9QpnUjAKVG/xefmvJGd1WUmfpT/g6AJGA==
 
+tslib@^1.8.0, tslib@^1.9.3:
+  version "1.11.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/tslib/-/tslib-1.11.2.tgz#9c79d83272c9a7aaf166f73915c9667ecdde3cc9"
+  integrity sha1-nHnYMnLJp6rxZvc5Fclmfs3ePMk=
+
 tsutils@^3.17.1:
   version "3.17.1"
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.17.1.tgz#ed719917f11ca0dee586272b2ac49e015a2dd759"
@@ -10022,6 +11549,11 @@ type-check@~0.3.2:
   integrity sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=
   dependencies:
     prelude-ls "~1.1.2"
+
+type-detect@4.0.8:
+  version "4.0.8"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
+  integrity sha1-dkb7XxiHHPu3dJ5pvTmmOI63RQw=
 
 type-fest@^0.11.0:
   version "0.11.0"
@@ -10230,10 +11762,20 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^3.0.1, uuid@^3.3.2:
+uuid@3.3.2:
+  version "3.3.2"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+  integrity sha1-G0r0lV6zB3xQHCOHL8ZROBFYcTE=
+
+uuid@^3.0.1, uuid@^3.2.1, uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+
+uuid@^7.0.0:
+  version "7.0.3"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
+  integrity sha1-xcnyyM8l3Ao3LE3xRBxB9b0MaAs=
 
 v8-compile-cache@^2.0.3:
   version "2.1.0"
@@ -10778,7 +12320,7 @@ yargs@12.0.5:
     y18n "^3.2.1 || ^4.0.0"
     yargs-parser "^11.1.1"
 
-yargs@^13.3.0:
+yargs@^13.2.4, yargs@^13.3.0:
   version "13.3.2"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-13.3.2.tgz#ad7ffefec1aa59565ac915f82dccb38a9c31a2dd"
   integrity sha512-AX3Zw5iPruN5ie6xGRIDgqkT+ZhnRlZMLMHAs8tg7nRruy2Nb+i5o9bwghAogtM08q1dpr2LVoS8KSTMYpWXUw==
@@ -10793,3 +12335,28 @@ yargs@^13.3.0:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
+
+zen-observable-ts@0.8.19:
+  version "0.8.19"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/zen-observable-ts/-/zen-observable-ts-0.8.19.tgz#c094cd20e83ddb02a11144a6e2a89706946b5694"
+  integrity sha1-wJTNIOg92wKhEUSm4qiXBpRrVpQ=
+  dependencies:
+    tslib "^1.9.3"
+    zen-observable "^0.8.0"
+
+zen-observable@^0.7.0:
+  version "0.7.1"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/zen-observable/-/zen-observable-0.7.1.tgz#f84075c0ee085594d3566e1d6454207f126411b3"
+  integrity sha1-+EB1wO4IVZTTVm4dZFQgfxJkEbM=
+
+zen-observable@^0.8.0:
+  version "0.8.15"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/zen-observable/-/zen-observable-0.8.15.tgz#96415c512d8e3ffd920afd3889604e30b9eaac15"
+  integrity sha1-lkFcUS2OP/2SCv04iWBOMLnqrBU=
+
+zen-push@0.2.1:
+  version "0.2.1"
+  resolved "https://olx.jfrog.io/olx/api/npm/nc-olxeu-new-jobs-virtual/zen-push/-/zen-push-0.2.1.tgz#ddc33b90f66f9a84237d5f1893970f6be60c3c28"
+  integrity sha1-3cM7kPZvmoQjfV8Yk5cPa+YMPCg=
+  dependencies:
+    zen-observable "^0.7.0"

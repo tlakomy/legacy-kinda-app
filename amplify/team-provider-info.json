@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-legacykindaapp-dev-105039-authRole",
+            "UnauthRoleArn": "arn:aws:iam::696785635119:role/amplify-legacykindaapp-dev-105039-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::696785635119:role/amplify-legacykindaapp-dev-105039-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-legacykindaapp-dev-105039-deployment",
+            "UnauthRoleName": "amplify-legacykindaapp-dev-105039-unauthRole",
+            "StackName": "amplify-legacykindaapp-dev-105039",
+            "StackId": "arn:aws:cloudformation:eu-west-1:696785635119:stack/amplify-legacykindaapp-dev-105039/2a946770-91d2-11ea-b275-06e58f87e324",
+            "AmplifyAppId": "dqy62btt2sng9"
+        }
+    }
+}
